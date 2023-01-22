@@ -7,7 +7,7 @@ export const createUser = async (req, res) => {
     const userExist = await User.findOne({ email: email });
 
     if (!userExist) {
-      const newUser = User.create(req.body);
+      const newUser = await User.create(req.body);
       res.json(newUser);
     } else {
       res.json({
