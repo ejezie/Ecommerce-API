@@ -1,13 +1,17 @@
 import mongoose from 'mongoose'; 
 
+const {Schema, model} = mongoose
+
 // Declare the Schema of the Mongo model
-var userSchema = new mongoose.Schema({
-    name:{
+var userSchema = new Schema({
+    firstname:{
         type:String,
         required:true,
-        unique:true,
-        index:true,
     },
+    lastname:{
+        type:String,
+        required:true,
+    }, 
     email:{
         type:String,
         required:true,
@@ -25,4 +29,4 @@ var userSchema = new mongoose.Schema({
 });
 
 //Export the model
-module.exports = mongoose.model('User', userSchema);
+export default model('User', userSchema);
