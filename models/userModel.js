@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 const {Schema, model} = mongoose
 
 // Declare the Schema of the Mongo model
-var userSchema = new Schema({
+const userSchema = new Schema({
     firstname:{
         type:String,
         required:true,

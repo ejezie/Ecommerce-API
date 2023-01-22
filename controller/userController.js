@@ -3,6 +3,7 @@ import User from "../models/userModel.js";
 export const createUser = async (req, res) => {
   try {
     const email = req.body.email;
+    console.log(req.body, "***********");
     const userExist = await User.findOne({ email: email });
 
     if (!userExist) {
