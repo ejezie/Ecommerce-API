@@ -1,6 +1,7 @@
 import User from "../models/userModel.js";
+import asyncHandler from "express-async-handler";
 
-export const createUser = async (req, res) => {
+export const createUser = asyncHandler(async (req, res) => {
   try {
     const email = req.body.email;
     console.log(req.body, "***********");
@@ -18,4 +19,4 @@ export const createUser = async (req, res) => {
   } catch (err) {
     res.json(err);
   }
-};
+});
