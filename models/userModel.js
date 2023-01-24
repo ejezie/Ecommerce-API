@@ -29,10 +29,15 @@ const userSchema = new Schema({
   },
 });
 
-userSchema.pre("save", async function(next) {
-    const salt = await bcrypt.genSaltSync(10)
-    this.password = await bcrypt.hash(this.password, salt)
-})
+userSchema.pre("save", async function (next) {
+  const salt = await bcrypt.genSaltSync(10);
+  this.password = await bcrypt.hash(this.password, salt);
+});
+
+// Define a Schema method
+userSchema.methods.isPasswordMatch = async (enteredPassword) => {
+  return await bcrypt.compare(enteredPassword, this.password);
+};
 
 //Export the model
 export default model("User", userSchema);
