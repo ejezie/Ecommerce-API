@@ -35,9 +35,10 @@ userSchema.pre("save", async function (next) {
 });
 
 // Define a Schema method
-userSchema.methods.isPasswordMatch = async (enteredPassword) => {
+userSchema.methods.isPasswordMatch = async function(enteredPassword){
   return await bcrypt.compare(enteredPassword, this.password);
 };
 
+
 //Export the model
-export default model("User", userSchema);
+export default model("User", userSchema); 
