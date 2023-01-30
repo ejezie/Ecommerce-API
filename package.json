@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon ./backend/index.js"
   },
   "author": "ejezie chinedu",
   "license": "ISC",
