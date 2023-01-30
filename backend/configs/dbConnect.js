@@ -1,9 +1,11 @@
 import mongoose from "mongoose";
-import dotenv from "dotenv"
-
-dotenv.config()
+import dotenv from "dotenv";
+dotenv.config({
+  path: "backend/configs/config.env",
+});
 
 const URI = process.env.MONGO;
+console.log(URI)
 
 mongoose.set('strictQuery', false);
  
@@ -14,4 +16,5 @@ export const dbConnect = () => {
   } catch (err) {
     console.log("Data base connection failed");
   }
+  return {}
 };
