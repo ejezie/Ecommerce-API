@@ -318,5 +318,135 @@
         "comment": "Good coffee maker, but the cleaning process could be easier."
       }
     ]
+  },
+  {
+    "name": "Bose QuietComfort 35 Wireless Headphones II",
+    "price": 199.99,
+    "description": "Comfortable, noise-cancelling wireless headphones with Alexa voice control, and a battery life of 20 hours.",
+    "ratings": 4.8,
+    "images": [
+      {
+        "public_id": "bose_quietcomfort_35_wireless_headphones_ii_1",
+        "url": "https://res.cloudinary.com/demo/image/upload/bose_quietcomfort_35_wireless_headphones_ii_1.jpg"
+      },
+      {
+        "public_id": "bose_quietcomfort_35_wireless_headphones_ii_2",
+        "url": "https://res.cloudinary.com/demo/image/upload/bose_quietcomfort_35_wireless_headphones_ii_2.jpg"
+      }
+    ],
+    "categories": ["Electronics", "Headphones"],
+    "seller": "Bose Inc.",
+    "stock": 500,
+    "numOfReviews": 200,
+    "reviews": [
+      {
+        "name": "Music Lover",
+        "rating": 5,
+        "comment": "These headphones have amazing sound quality and noise cancelling, I can now enjoy my music without any distractions."
+      },
+      {
+        "name": "John Doe",
+        "rating": 4.5,
+        "comment": "Very good headphones, the only downside is that they are a bit expensive."
+      }
+    ]
+  },
+  {
+    "name": "Under Armour Men's Charged Assert 8 Running Shoe",
+    "price": 59.99,
+    "description": "Lightweight and comfortable running shoes with a responsive cushioning system, perfect for avid runners.",
+    "ratings": 4.3,
+    "images": [
+      {
+        "public_id": "under_armour_mens_charged_assert_8_running_shoe_1",
+        "url": "https://res.cloudinary.com/demo/image/upload/under_armour_mens_charged_assert_8_running_shoe_1.jpg"
+      },
+      {
+        "public_id": "under_armour_mens_charged_assert_8_running_shoe_2",
+        "url": "https://res.cloudinary.com/demo/image/upload/under_armour_mens_charged_assert_8_running_shoe_2.jpg"
+      }
+    ],
+    "categories": ["Clothes/Shoes", "Sports"],
+    "seller": "Under Armour Inc.",
+    "stock": 1000,
+    "numOfReviews": 300,
+    "reviews": [
+      {
+        "name": "Runner",
+        "rating": 5,
+        "comment": "These running shoes are so lightweight and comfortable, I can now run for miles without any discomfort."
+      },
+      {
+        "name": "Jane Doe",
+        "rating": 4,
+        "comment": "Good shoes, but the sizing runs a bit small."
+      }
+    ]
   }
+  ,
+  {
+    "name": "Camp Chef Mountain Series Stryker 200 Portable Propane Camp Stove",
+    "price": 99.99,
+    "description": "Compact and portable camping stove with two burners, perfect for outdoor cooking.",
+    "ratings": 4.5,
+    "images": [
+      {
+        "public_id": "camp_chef_mountain_series_stryker_200_portable_propane_camp_stove_1",
+        "url": "https://res.cloudinary.com/demo/image/upload/camp_chef_mountain_series_stryker_200_portable_propane_camp_stove_1.jpg"
+      },
+      {
+        "public_id": "camp_chef_mountain_series_stryker_200_portable_propane_camp_stove_2",
+        "url": "https://res.cloudinary.com/demo/image/upload/camp_chef_mountain_series_stryker_200_portable_propane_camp_stove_2.jpg"
+      }
+    ],
+    "categories": ["Outdoors", "Food"],
+    "seller": "Camp Chef Inc.",
+    "stock": 200,
+    "numOfReviews": 150,
+    "reviews": [
+      {
+        "name": "Camper",
+        "rating": 5,
+        "comment": "This camping stove is compact and easy to use, I can now cook meals while camping without any hassle."
+      },
+      {
+        "name": "Outdoor Enthusiast",
+        "rating": 4,
+        "comment": "Good camping stove, but the burners could have been a bit larger."
+      }
+    ]
+  },
+  {
+    "name": "The Immortal Life of Henrietta Lacks",
+    "price": 14.99,
+    "description": "A best-selling book that tells the story of a woman whose cancer cells were taken without her knowledge and have been used for scientific research for decades.",
+    "ratings": 4.6,
+    "images": [
+      {
+        "public_id": "the_immortal_life_of_henrietta_lacks_1",
+        "url": "https://res.cloudinary.com/demo/image/upload/the_immortal_life_of_henrietta_lacks_1.jpg"
+      },
+      {
+        "public_id": "the_immortal_life_of_henrietta_lacks_2",
+        "url": "https://res.cloudinary.com/demo/image/upload/the_immortal_life_of_henrietta_lacks_2.jpg"
+      }
+    ],
+    "categories": ["Books"],
+    "seller": "Penguin Random House",
+    "stock": 1000,
+    "numOfReviews": 500,
+    "reviews": [
+      {
+        "name": "Bookworm",
+        "rating": 5,
+        "comment": "This is a truly moving and eye-opening book, I highly recommend it to everyone."
+      },
+      {
+        "name": "Reader",
+        "rating": 4.5,
+        "comment": "A well-written and thought-provoking book. Highly recommended for those interested in ethics and medical history."
+      }
+    ]
+  }
+
 ]
