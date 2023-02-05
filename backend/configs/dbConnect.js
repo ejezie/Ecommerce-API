@@ -5,7 +5,6 @@ dotenv.config({
 });
 
 const URI = process.env.MONGO;
-console.log(URI)
 
 mongoose.set('strictQuery', false);
  

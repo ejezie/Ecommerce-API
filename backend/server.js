@@ -19,7 +19,7 @@ app.use(bodyParser());
 app.use(bodyParser.urlencoded({ extended: false }));
 // app.use(cors());
 
-app.use("/api/user", authRoute);
+app.use("/api/v1/user", authRoute);
 
 app.use(notFound)
 app.use(errorHandler)

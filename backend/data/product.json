@@ -1,0 +1,322 @@
+[
+  {
+    "name": "iPhone XR",
+    "price": 799.0,
+    "description": "The latest iPhone with a 6.1-inch Liquid Retina display and advanced camera system.",
+    "ratings": 4.5,
+    "images": [
+      {
+        "public_id": "iphone_xr_1",
+        "url": "https://res.cloudinary.com/demo/image/upload/iphone_xr_1.jpg"
+      },
+      {
+        "public_id": "iphone_xr_2",
+        "url": "https://res.cloudinary.com/demo/image/upload/iphone_xr_2.jpg"
+      }
+    ],
+    "categories": ["Electronics"],
+    "seller": "Apple Inc.",
+    "stock": 500,
+    "numOfReviews": 200,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "rating": 5,
+        "comment": "Best phone I've ever owned! Love the camera and display."
+      },
+      {
+        "name": "Jane Doe",
+        "rating": 4,
+        "comment": "Good phone, but could be a bit more affordable."
+      }
+    ]
+  },
+  {
+    "name": "Sofa Set",
+    "price": 999.0,
+    "description": "A stylish and comfortable sofa set for your living room.",
+    "ratings": 4.2,
+    "images": [
+      {
+        "public_id": "sofa_set_1",
+        "url": "https://res.cloudinary.com/demo/image/upload/sofa_set_1.jpg"
+      },
+      {
+        "public_id": "sofa_set_2",
+        "url": "https://res.cloudinary.com/demo/image/upload/sofa_set_2.jpg"
+      }
+    ],
+    "categories": ["Furniture"],
+    "seller": "Furniture Co.",
+    "stock": 50,
+    "numOfReviews": 80,
+    "reviews": [
+      {
+        "name": "Tom Smith",
+        "rating": 5,
+        "comment": "I love this sofa set, it's so comfortable and looks great in my living room."
+      },
+      {
+        "name": "Sara Johnson",
+        "rating": 4,
+        "comment": "Good quality, but took longer to assemble than expected."
+      }
+    ]
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 38",
+    "price": 120.0,
+    "description": "The latest iteration of the Nike Air Zoom Pegasus running shoe with improved cushioning and support.",
+    "ratings": 4.8,
+    "images": [
+      {
+        "public_id": "nike_air_zoom_pegasus_38_1",
+        "url": "https://res.cloudinary.com/demo/image/upload/nike_air_zoom_pegasus_38_1.jpg"
+      },
+      {
+        "public_id": "nike_air_zoom_pegasus_38_2",
+        "url": "https://res.cloudinary.com/demo/image/upload/nike_air_zoom_pegasus_38_2.jpg"
+      }
+    ],
+    "categories": ["Clothes/Shoes"],
+    "seller": "Nike Inc.",
+    "stock": 200,
+    "numOfReviews": 150,
+    "reviews": [
+      {
+        "name": "Michael Jordan",
+        "rating": 5,
+        "comment": "These are the best running shoes I've ever used. Great cushioning and support."
+      },
+      {
+        "name": "Kobe Bryant",
+        "rating": 4,
+        "comment": "Good shoes, but the color choices could be better."
+      }
+    ]
+  },
+  {
+    "name": "MacBook Pro 16-inch",
+    "price": 2199.0,
+    "description": "The latest MacBook Pro with a 16-inch Retina display and powerful performance.",
+    "ratings": 4.7,
+    "images": [
+      {
+        "public_id": "macbook_pro_16_inch_1",
+        "url": "https://res.cloudinary.com/demo/image/upload/macbook_pro_16_inch_1.jpg"
+      },
+      {
+        "public_id": "macbook_pro_16_inch_2",
+        "url": "https://res.cloudinary.com/demo/image/upload/macbook_pro_16_inch_2.jpg"
+      }
+    ],
+    "categories": ["Laptops"],
+    "seller": "Apple Inc.",
+    "stock": 300,
+    "numOfReviews": 250,
+    "reviews": [
+      {
+        "name": "Steve Jobs",
+        "rating": 5,
+        "comment": "Best laptop I've ever used. Great performance and display."
+      },
+      {
+        "name": "Tim Cook",
+        "rating": 4,
+        "comment": "Good laptop, but the price could be a bit lower."
+      }
+    ]
+  },
+  {
+    "name": "Bose QuietComfort 35 II",
+    "price": 349.0,
+    "description": "The latest Bose QuietComfort 35 noise-cancelling headphones with Alexa voice control.",
+    "ratings": 4.6,
+    "images": [
+      {
+        "public_id": "bose_quietcomfort_35_ii_1",
+        "url": "https://res.cloudinary.com/demo/image/upload/bose_quietcomfort_35_ii_1.jpg"
+      },
+      {
+        "public_id": "bose_quietcomfort_35_ii_2",
+        "url": "https://res.cloudinary.com/demo/image/upload/bose_quietcomfort_35_ii_2.jpg"
+      }
+    ],
+    "categories": ["Accessories", "Headphones"],
+    "seller": "Bose Inc.",
+    "stock": 100,
+    "numOfReviews": 200,
+    "reviews": [
+      {
+        "name": "Dr. Dre",
+        "rating": 5,
+        "comment": "These are the best noise-cancelling headphones I've ever used. Love the Alexa voice control feature."
+      },
+      {
+        "name": "Pharrell Williams",
+        "rating": 4,
+        "comment": "Good headphones, but the battery life could be longer."
+      }
+    ]
+  },
+  {
+    "name": "Instant Pot Duo Plus 9-in-1",
+    "price": 99.0,
+    "description": "The latest Instant Pot with 9 functions in one appliance: pressure cooker, slow cooker, rice cooker, steamer, sauté, yogurt maker, warmer, and sterilizer.",
+    "ratings": 4.8,
+    "images": [
+      {
+        "public_id": "instant_pot_duo_plus_9_in_1_1",
+        "url": "https://res.cloudinary.com/demo/image/upload/instant_pot_duo_plus_9_in_1_1.jpg"
+      },
+      {
+        "public_id": "instant_pot_duo_plus_9_in_1_2",
+        "url": "https://res.cloudinary.com/demo/image/upload/instant_pot_duo_plus_9_in_1_2.jpg"
+      }
+    ],
+    "categories": ["Food"],
+    "seller": "Instant Pot Inc.",
+    "stock": 500,
+    "numOfReviews": 300,
+    "reviews": [
+      {
+        "name": "Gordon Ramsay",
+        "rating": 5,
+        "comment": "This is a game-changer in the kitchen. So many functions in one appliance."
+      },
+      {
+        "name": "Jamie Oliver",
+        "rating": 4,
+        "comment": "Good appliance, but the manual could be more user-friendly."
+      }
+    ]
+  },
+  {
+    "name": "The Alchemist",
+    "price": 14.99,
+    "description": "The international bestseller by Paulo Coelho about a young shepherd boy's journey to fulfill his personal legend.",
+    "ratings": 4.5,
+    "images": [
+      {
+        "public_id": "the_alchemist_1",
+        "url": "https://res.cloudinary.com/demo/image/upload/the_alchemist_1.jpg"
+      },
+      {
+        "public_id": "the_alchemist_2",
+        "url": "https://res.cloudinary.com/demo/image/upload/the_alchemist_2.jpg"
+      }
+    ],
+    "categories": ["Books"],
+    "seller": "Paulo Coelho Books Inc.",
+    "stock": 1000,
+    "numOfReviews": 400,
+    "reviews": [
+      {
+        "name": "Oprah Winfrey",
+        "rating": 5,
+        "comment": "This is a must-read book that will inspire you to follow your personal legend."
+      },
+      {
+        "name": "Barack Obama",
+        "rating": 4,
+        "comment": "A thought-provoking and inspiring book, highly recommended."
+      }
+    ]
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 38",
+    "price": 120.0,
+    "description": "The latest version of the classic running shoe with a responsive Zoom Air unit and a lightweight design.",
+    "ratings": 4.7,
+    "images": [
+      {
+        "public_id": "nike_air_zoom_pegasus_38_1",
+        "url": "https://res.cloudinary.com/demo/image/upload/nike_air_zoom_pegasus_38_1.jpg"
+      },
+      {
+        "public_id": "nike_air_zoom_pegasus_38_2",
+        "url": "https://res.cloudinary.com/demo/image/upload/nike_air_zoom_pegasus_38_2.jpg"
+      }
+    ],
+    "categories": ["Sports", "Shoes"],
+    "seller": "Nike Inc.",
+    "stock": 1500,
+    "numOfReviews": 500,
+    "reviews": [
+      {
+        "name": "Usain Bolt",
+        "rating": 5,
+        "comment": "These shoes are perfect for running, with great comfort and support."
+      },
+      {
+        "name": "Mo Farah",
+        "rating": 4,
+        "comment": "Good shoes, but the sizing could be more consistent."
+      }
+    ]
+  },
+  {
+    "name": "Coleman Sundome Tent",
+    "price": 89.99,
+    "description": "A waterproof and windproof tent with patented welded floors and inverted seams, perfect for camping in any weather.",
+    "ratings": 4.6,
+    "images": [
+      {
+        "public_id": "coleman_sundome_tent_1",
+        "url": "https://res.cloudinary.com/demo/image/upload/coleman_sundome_tent_1.jpg"
+      },
+      {
+        "public_id": "coleman_sundome_tent_2",
+        "url": "https://res.cloudinary.com/demo/image/upload/coleman_sundome_tent_2.jpg"
+      }
+    ],
+    "categories": ["Outdoors", "Sports"],
+    "seller": "Coleman Inc.",
+    "stock": 500,
+    "numOfReviews": 300,
+    "reviews": [
+      {
+        "name": "Bear Grylls",
+        "rating": 5,
+        "comment": "This tent is perfect for camping in any weather, with great protection and durability."
+      },
+      {
+        "name": "Rebecca Rusch",
+        "rating": 4,
+        "comment": "Good tent, but the instructions could be clearer."
+      }
+    ]
+  },
+  {
+    "name": "Keurig K-Elite Coffee Maker",
+    "price": 149.99,
+    "description": "A coffee maker with a strong brew setting, hot water dispenser, and large water reservoir, perfect for coffee lovers.",
+    "ratings": 4.5,
+    "images": [
+      {
+        "public_id": "keurig_k_elite_coffee_maker_1",
+        "url": "https://res.cloudinary.com/demo/image/upload/keurig_k_elite_coffee_maker_1.jpg"
+      },
+      {
+        "public_id": "keurig_k_elite_coffee_maker_2",
+        "url": "https://res.cloudinary.com/demo/image/upload/keurig_k_elite_coffee_maker_2.jpg"
+      }
+    ],
+    "categories": ["Home", "Electronics"],
+    "seller": "Keurig Inc.",
+    "stock": 1000,
+    "numOfReviews": 400,
+    "reviews": [
+      {
+        "name": "Coffee Lover",
+        "rating": 5,
+        "comment": "This coffee maker is perfect, with a strong brew setting and large water reservoir, exactly what I was looking for."
+      },
+      {
+        "name": "James Doe",
+        "rating": 4,
+        "comment": "Good coffee maker, but the cleaning process could be easier."
+      }
+    ]
+  }
+]
