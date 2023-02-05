@@ -14,7 +14,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/iphone_xr_2.jpg"
       }
     ],
-    "categories": ["Electronics"],
+    "category": ["Electronics"],
     "seller": "Apple Inc.",
     "stock": 500,
     "numOfReviews": 200,
@@ -46,7 +46,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/sofa_set_2.jpg"
       }
     ],
-    "categories": ["Furniture"],
+    "category": ["Furniture"],
     "seller": "Furniture Co.",
     "stock": 50,
     "numOfReviews": 80,
@@ -78,7 +78,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/nike_air_zoom_pegasus_38_2.jpg"
       }
     ],
-    "categories": ["Clothes/Shoes"],
+    "category": ["Clothes/Shoes"],
     "seller": "Nike Inc.",
     "stock": 200,
     "numOfReviews": 150,
@@ -110,7 +110,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/macbook_pro_16_inch_2.jpg"
       }
     ],
-    "categories": ["Laptops"],
+    "category": ["Laptops"],
     "seller": "Apple Inc.",
     "stock": 300,
     "numOfReviews": 250,
@@ -142,7 +142,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/bose_quietcomfort_35_ii_2.jpg"
       }
     ],
-    "categories": ["Accessories", "Headphones"],
+    "category": ["Accessories", "Headphones"],
     "seller": "Bose Inc.",
     "stock": 100,
     "numOfReviews": 200,
@@ -174,7 +174,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/instant_pot_duo_plus_9_in_1_2.jpg"
       }
     ],
-    "categories": ["Food"],
+    "category": ["Food"],
     "seller": "Instant Pot Inc.",
     "stock": 500,
     "numOfReviews": 300,
@@ -206,7 +206,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/the_alchemist_2.jpg"
       }
     ],
-    "categories": ["Books"],
+    "category": ["Books"],
     "seller": "Paulo Coelho Books Inc.",
     "stock": 1000,
     "numOfReviews": 400,
@@ -238,7 +238,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/nike_air_zoom_pegasus_38_2.jpg"
       }
     ],
-    "categories": ["Sports", "Shoes"],
+    "category": ["Sports", "Shoes"],
     "seller": "Nike Inc.",
     "stock": 1500,
     "numOfReviews": 500,
@@ -270,7 +270,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/coleman_sundome_tent_2.jpg"
       }
     ],
-    "categories": ["Outdoors", "Sports"],
+    "category": ["Outdoors", "Sports"],
     "seller": "Coleman Inc.",
     "stock": 500,
     "numOfReviews": 300,
@@ -302,7 +302,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/keurig_k_elite_coffee_maker_2.jpg"
       }
     ],
-    "categories": ["Home", "Electronics"],
+    "category": ["Home", "Electronics"],
     "seller": "Keurig Inc.",
     "stock": 1000,
     "numOfReviews": 400,
@@ -334,7 +334,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/bose_quietcomfort_35_wireless_headphones_ii_2.jpg"
       }
     ],
-    "categories": ["Electronics", "Headphones"],
+    "category": ["Electronics", "Headphones"],
     "seller": "Bose Inc.",
     "stock": 500,
     "numOfReviews": 200,
@@ -366,7 +366,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/under_armour_mens_charged_assert_8_running_shoe_2.jpg"
       }
     ],
-    "categories": ["Clothes/Shoes", "Sports"],
+    "category": ["Clothes/Shoes", "Sports"],
     "seller": "Under Armour Inc.",
     "stock": 1000,
     "numOfReviews": 300,
@@ -382,8 +382,7 @@
         "comment": "Good shoes, but the sizing runs a bit small."
       }
     ]
-  }
-  ,
+  },
   {
     "name": "Camp Chef Mountain Series Stryker 200 Portable Propane Camp Stove",
     "price": 99.99,
@@ -399,7 +398,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/camp_chef_mountain_series_stryker_200_portable_propane_camp_stove_2.jpg"
       }
     ],
-    "categories": ["Outdoors", "Food"],
+    "category": ["Outdoors", "Food"],
     "seller": "Camp Chef Inc.",
     "stock": 200,
     "numOfReviews": 150,
@@ -431,7 +430,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/the_immortal_life_of_henrietta_lacks_2.jpg"
       }
     ],
-    "categories": ["Books"],
+    "category": ["Books"],
     "seller": "Penguin Random House",
     "stock": 1000,
     "numOfReviews": 500,
@@ -448,5 +447,4 @@
       }
     ]
   }
-
 ]

@@ -3,7 +3,6 @@ import asyncHandler from "express-async-handler";
 
 export const createUser = asyncHandler(async (req, res) => {
   const email = req.body.email;
-  console.log(req.body, "***********");
   const userExist = await User.findOne({ email: email });
 
   if (!userExist) {

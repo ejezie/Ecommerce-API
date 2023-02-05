@@ -7,18 +7,18 @@ const productSchema = new Schema({
     type: String,
     required: [true, "Product name is required"],
     trim: true,
-    minlength: [100, "Product name must be at least 100 characters"],
+    maxlength: [100, "Product name must be at least 100 characters"],
   },
   price: {
     type: Number,
     required: [true, "Product price is required"],
-    minlength: [5, "Product price must be at least 100 characters"],
+    maxlength: [5, "Product price must be at least 100 characters"],
     default: 0.0,
   },
   description: {
     type: String,
     required: [true, "Product description is required"],
-    minlength: [5, "Product price must be at least 100 characters"],
+    minlength: [30, "Product description must be at least 30 characters"],
   },
   ratings: {
     type: Number,
