@@ -1,12 +1,6 @@
 import Product from "../models/product.js";
-import dotenv from "dotenv";
 import { dbConnect } from "../configs/dbConnect.js";
-import products from "../data/product.json"; 
-
-// setup env
-dotenv.config({
-    path: "../configs/config.env"
-})
+import products from "../data/products.json" assert {type: "json"}; 
 
 // Run data base connection
 dbConnect()

@@ -14,7 +14,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/iphone_xr_2.jpg"
       }
     ],
-    "category": ["Electronics"],
+    "category": "Electronics",
     "seller": "Apple Inc.",
     "stock": 500,
     "numOfReviews": 200,
@@ -46,7 +46,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/sofa_set_2.jpg"
       }
     ],
-    "category": ["Furniture"],
+    "category": "Furniture",
     "seller": "Furniture Co.",
     "stock": 50,
     "numOfReviews": 80,
@@ -78,7 +78,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/nike_air_zoom_pegasus_38_2.jpg"
       }
     ],
-    "category": ["Clothes/Shoes"],
+    "category": "Clothes/Shoes",
     "seller": "Nike Inc.",
     "stock": 200,
     "numOfReviews": 150,
@@ -110,7 +110,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/macbook_pro_16_inch_2.jpg"
       }
     ],
-    "category": ["Laptops"],
+    "category": "Laptops",
     "seller": "Apple Inc.",
     "stock": 300,
     "numOfReviews": 250,
@@ -142,7 +142,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/bose_quietcomfort_35_ii_2.jpg"
       }
     ],
-    "category": ["Accessories", "Headphones"],
+    "category": "Accessories",
     "seller": "Bose Inc.",
     "stock": 100,
     "numOfReviews": 200,
@@ -174,7 +174,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/instant_pot_duo_plus_9_in_1_2.jpg"
       }
     ],
-    "category": ["Food"],
+    "category": "Food",
     "seller": "Instant Pot Inc.",
     "stock": 500,
     "numOfReviews": 300,
@@ -206,7 +206,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/the_alchemist_2.jpg"
       }
     ],
-    "category": ["Books"],
+    "category": "Books",
     "seller": "Paulo Coelho Books Inc.",
     "stock": 1000,
     "numOfReviews": 400,
@@ -238,7 +238,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/nike_air_zoom_pegasus_38_2.jpg"
       }
     ],
-    "category": ["Sports", "Shoes"],
+    "category": "Clothes/Shoes",
     "seller": "Nike Inc.",
     "stock": 1500,
     "numOfReviews": 500,
@@ -270,7 +270,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/coleman_sundome_tent_2.jpg"
       }
     ],
-    "category": ["Outdoors", "Sports"],
+    "category": "Outdoors",
     "seller": "Coleman Inc.",
     "stock": 500,
     "numOfReviews": 300,
@@ -302,7 +302,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/keurig_k_elite_coffee_maker_2.jpg"
       }
     ],
-    "category": ["Home", "Electronics"],
+    "category": "Home",
     "seller": "Keurig Inc.",
     "stock": 1000,
     "numOfReviews": 400,
@@ -334,7 +334,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/bose_quietcomfort_35_wireless_headphones_ii_2.jpg"
       }
     ],
-    "category": ["Electronics", "Headphones"],
+    "category":  "Headphones",
     "seller": "Bose Inc.",
     "stock": 500,
     "numOfReviews": 200,
@@ -366,7 +366,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/under_armour_mens_charged_assert_8_running_shoe_2.jpg"
       }
     ],
-    "category": ["Clothes/Shoes", "Sports"],
+    "category": "Clothes/Shoes",
     "seller": "Under Armour Inc.",
     "stock": 1000,
     "numOfReviews": 300,
@@ -398,7 +398,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/camp_chef_mountain_series_stryker_200_portable_propane_camp_stove_2.jpg"
       }
     ],
-    "category": ["Outdoors", "Food"],
+    "category": "Outdoors",
     "seller": "Camp Chef Inc.",
     "stock": 200,
     "numOfReviews": 150,
@@ -430,7 +430,7 @@
         "url": "https://res.cloudinary.com/demo/image/upload/the_immortal_life_of_henrietta_lacks_2.jpg"
       }
     ],
-    "category": ["Books"],
+    "category": "Books",
     "seller": "Penguin Random House",
     "stock": 1000,
     "numOfReviews": 500,

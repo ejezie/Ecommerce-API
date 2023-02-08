@@ -52,7 +52,7 @@ const productSchema = new Schema({
         "Sports",
         "Outdoors",
         "Home",
-        "Beauty/Health ",
+        "Beauty/Health",
       ],
       message: "Please select a valid category",
     },
