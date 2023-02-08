@@ -5,7 +5,7 @@ dotenv.config({
 });
 import { dbConnect } from "./configs/dbConnect.js";
 import authRoute from "./routes/authRoutes.js";
-import { newProduct } from "./controller/productController.js";
+import productRoute from "./routes/productRoute.js";
 import bodyParser from "body-parser";
 import { errorHandler, notFound } from "./middlewares/errorHandler.js";
 
@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // app.use(cors());
 
 app.use("/api/v1/", authRoute);
-app.use("/api/v1/", newProduct);
+app.use("/api/v1/", productRoute);
 
 app.use(notFound)
 app.use(errorHandler)
