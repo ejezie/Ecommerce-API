@@ -1,7 +1,7 @@
 import Product from "../models/product.js";
 import dotenv from "dotenv";
 import { dbConnect } from "../configs/dbConnect.js";
-import products from "../data/products.js"; 
+import products from "../data/product.json"; 
 
 // setup env
 dotenv.config({
@@ -19,6 +19,8 @@ const seedProducts = async () => {
 
         await Product.insertMany(products);
         console.log("All products are added");
+
+        process.exit();
 
     }catch(error){
         console.log(error.message);
