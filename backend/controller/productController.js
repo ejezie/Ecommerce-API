@@ -1,4 +1,5 @@
 import Product from "../models/product.js";
+import ErrorHandler from "../utils/errorHandler.js";
 
 // New Product, Route to => api/v1/admin/product/new POST
 export const newProduct = async (req, res, next) => {
@@ -26,10 +27,7 @@ export const getSingleProduct = async (req, res, next) => {
   const product = await Product.findById(req.params.id);
 
   if(!product) {
-    res.status(404).json({
-      success: fail,
-      message: "Product Not Found",
-    })
+    return next(new ErrorHandler("Product not found", 404));
   }
  
   res.status(200).json({
