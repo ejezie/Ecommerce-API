@@ -1,15 +1,16 @@
 import Product from "../models/product.js";
 import ErrorHandler from "../utils/errorHandler.js";
+import catchAsyncErrors from "../middlewares/catchAsyncErrors.js";
 
 // New Product, Route to => api/v1/admin/product/new POST
-export const newProduct = async (req, res, next) => {
+export const newProduct = catchAsyncErrors(async (req, res, next) => {
   const product = await Product.create(req.body);
   res.status(201).json({
     message: "Product Created",
     success: true,
     data: product,
   });
-};
+});
 
 // Get all Products, Route to => api/v1/products GET
 export const getAllProducts = async (req, res, next) => {
