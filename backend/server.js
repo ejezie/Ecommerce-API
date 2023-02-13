@@ -11,6 +11,13 @@ import errorMiddleWare from "./middlewares/error.js";
 
 dbConnect();
 
+// Handle uncaught exceptions
+process.on("uncaughtException", (err) => {
+  console.log(`ERROR: ${err.stack}`);
+  console.log('shutting down due to uncaughtException');
+  process.exit(1);
+})
+
 const PORT = process.env.PORT || 5000;
 const ENV = process.env.NODE_ENV;
 
@@ -29,6 +36,8 @@ app.use(errorMiddleWare)
 const server = app.listen(PORT, () => {
   console.log(`App is listening on port ${PORT} in ${ENV} mode`);
 });
+
+// Handle promise rejections
 
 process.on('unhandledRejection', err => {
   console.log(`Error: ${err.message}`);
