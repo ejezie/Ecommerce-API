@@ -13,64 +13,58 @@ export const newProduct = catchAsyncErrors(async (req, res, next) => {
 });
 
 // Get all Products, Route to => api/v1/products GET
-export const getAllProducts = async (req, res, next) => {
+export const getAllProducts = catchAsyncErrors(async (req, res, next) => {
   const products = await Product.find();
   res.status(200).json({
     message: "All Products",
-    success: true, 
+    success: true,
     count: products.length,
     products,
   });
-};
+});
 
 // Get all single Product, Route to => api/v1/product/:id GET
-export const getSingleProduct = async (req, res, next) => {
+export const getSingleProduct = catchAsyncErrors(async (req, res, next) => {
   const product = await Product.findById(req.params.id);
 
-  if(!product) {
+  if (!product) {
     return next(new ErrorHandler("Product not found", 404));
   }
- 
+
   res.status(200).json({
     message: "Product Found",
     success: true,
     product,
-  })
-}
+  });
+});
 
 // Update a Product, Route to => api/v1/admin/product/:id PUT
-export const updateProduct = async (req, res, next) => {
+export const updateProduct = catchAsyncErrors(async (req, res, next) => {
   let product = await Product.findById(req.params.id);
 
-  if(!product) {
-    res.status(404).json({
-      success: fail,
-      message: "Product Not Found",
-    })
+  if (!product) {
+    return next(new ErrorHandler("Product not found", 404));
   }
 
   product = await Product.findByIdAndUpdate(req.params.id, req.body, {
     new: true,
     runValidators: true,
     useFindAndModify: false,
-  }) 
+  });
 
   res.status(200).json({
     message: "Product Updated",
     success: true,
-    product
-  })
-}
+    product,
+  });
+});
 
 // Delete roduct, Route to => api/v1/admin/product/:id DELETE
-export const deleteProduct = async (req, res, next) => {
+export const deleteProduct = catchAsyncErrors(async (req, res, next) => {
   const product = await Product.findById(req.params.id);
 
-  if(!product) {
-    res.status(404).json({
-      success: fail,
-      message: "Product Not Found",
-    })
+  if (!product) {
+    return next(new ErrorHandler("Product not found", 404));
   }
 
   await product.remove();
@@ -78,6 +72,6 @@ export const deleteProduct = async (req, res, next) => {
   res.status(200).json({
     message: "Product Deleted",
     success: true,
-    product
-  })
-}
+    product,
+  });
+});

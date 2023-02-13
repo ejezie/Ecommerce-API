@@ -26,6 +26,14 @@ app.use("/api/v1/", productRoute);
 // Error handling middleware
 app.use(errorMiddleWare)
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
   console.log(`App is listening on port ${PORT} in ${ENV} mode`);
 });
+
+process.on('unhandledRejection', err => {
+  console.log(`Error: ${err.message}`);
+  console.log("shutting down server due to unhandledRejection");
+  server.close(() => {
+    process.exit(1);
+  })
+})
