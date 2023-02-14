@@ -1,6 +1,7 @@
 import Product from "../models/product.js";
 import ErrorHandler from "../utils/errorHandler.js";
 import catchAsyncErrors from "../middlewares/catchAsyncErrors.js";
+import APIFeatures from "../utils/apiFeatures.js";
 
 // New Product, Route to => api/v1/admin/product/new POST
 export const newProduct = catchAsyncErrors(async (req, res, next) => {
@@ -12,9 +13,10 @@ export const newProduct = catchAsyncErrors(async (req, res, next) => {
   });
 });
 
-// Get all Products, Route to => api/v1/products GET
+// Get all Products, Route to => api/v1/products?keyword=apple GET
 export const getAllProducts = catchAsyncErrors(async (req, res, next) => {
-  const products = await Product.find();
+  const apiFeatures = new APIFeatures(Product.find(), req.query).search();
+  const products = await apiFeatures;
   res.status(200).json({
     message: "All Products",
     success: true,
