@@ -13,8 +13,21 @@ class APIFeatures {
           },
         }
       : {};
-    this.query = this.query.find({...keyword});
-    return this.query;
+    this.query = this.query.find({ ...keyword });
+    return this;
+  }
+
+  filter() {
+    const queryCopy = { ...this.queryString };
+
+    // Removing unwanted properties
+    const removeKeys = ["keyword", "page", "limit"];
+    removeKeys.forEach((key) => delete queryCopy[key]);
+
+    console.log(queryCopy);
+
+    this.query = this.query.find(queryCopy);
+    return this;
   }
 }
 
