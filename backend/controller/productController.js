@@ -19,7 +19,7 @@ export const getAllProducts = catchAsyncErrors(async (req, res, next) => {
   .search()
   .filter()
 
-  const products = await apiFeatures;
+  const products = await apiFeatures.query;
   res.status(200).json({
     message: "All Products",
     success: true,

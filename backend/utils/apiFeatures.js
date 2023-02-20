@@ -24,7 +24,7 @@ class APIFeatures {
     const removeKeys = ["keyword", "page", "limit"];
     removeKeys.forEach((key) => delete queryCopy[key]);
 
-    console.log(queryCopy);
+    console.dir(queryCopy, "query");
 
     this.query = this.query.find(queryCopy);
     return this;
