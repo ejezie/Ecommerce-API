@@ -15,9 +15,13 @@ export const newProduct = catchAsyncErrors(async (req, res, next) => {
 
 // Get all Products, Route to => api/v1/products?keyword=apple GET
 export const getAllProducts = catchAsyncErrors(async (req, res, next) => {
+
+  const resultsPerpage = 5
+
   const apiFeatures = new APIFeatures(Product.find(), req.query)
   .search()
   .filter()
+  .paginate(resultsPerpage);
 
   const products = await apiFeatures.query;
   res.status(200).json({
