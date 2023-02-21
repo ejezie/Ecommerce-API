@@ -4,7 +4,7 @@ class APIFeatures {
     this.queryString = queryString;
   }
 
-  search() {
+  search() { 
     const keyword = this.queryString.keyword
       ? {
           name: {
@@ -26,7 +26,13 @@ class APIFeatures {
 
     console.dir(queryCopy, "query");
 
-    this.query = this.query.find(queryCopy);
+    // Filter for price range
+    let queryString = JSON.stringify(queryCopy);
+    queryString = queryString.replace(/\b(gte|gt|lte|lt)\b/g, match => `$${match}`);
+
+    console.dir(queryString, "query");
+
+    this.query = this.query.find(JSON.parse(queryString));
     return this;
   }
 }
